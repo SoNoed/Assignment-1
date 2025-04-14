@@ -1,0 +1,103 @@
+#habitat 
+{
+    background-image: url(Img/istockphoto-1300198454-612x612.png) ;
+    size: auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#anatomy 
+{
+    background-image: url(Img/ai-generated-tranquil-seascape-serene-ocean-at-dusk-photo.png) ;
+    size: auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#diet 
+{
+    background-image: url(Img/360_F_4439660_Uwl22WmYlzyfoIj1WyGLdXKbWM1rO4Rj.png) ;
+    size: auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#title-1
+{
+    background-color: blueviolet;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title-2
+{
+    background-color: rgb(181, 241, 16);
+    color:rgb(0, 26, 27);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title-3
+{
+    background-color: rgb(181, 248, 192);
+    color:rgb(5, 137, 189);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-fluid
+{
+    display : grid;
+    grid-template-columns: 3fr 1fr;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 50px;
+}
+
+
+.item-text-1
+{
+    background-color: #8ee7e3;
+    color: rgb(217, 160, 250);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.item-text-2
+{
+    background-color: #12928c;
+    color: rgba(96, 9, 146, 0.486);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.item-text-3
+{
+    background-color: #2c2229;
+    color: rgb(63, 107, 110);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.item-image
+{
+object-fit: cover;
+max-width: 200px;
+max-height: 200px;
+padding: 20px;
+}
