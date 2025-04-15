@@ -147,6 +147,7 @@ padding: 16px;
 .cards-container {
     display: flex;
     flex-wrap: wrap;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     padding: 20px;
     gap: 10px;
@@ -156,11 +157,9 @@ padding: 16px;
     max-width: 320px;
     max-height: 200px;
     border: 1px solid #321f1f;
-    border-radius: 8px;
-    overflow: hidden;
+    border-radius: 5px;
     text-align: center;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(108, 146, 91, 0.1);
+    padding: 8px;
   }
   
   .card-image {
@@ -171,7 +170,7 @@ padding: 16px;
 
   #cards-titles
 {
-    background-image: url(Img/360_F_22727906_qmu4gykES1uVCRGvp2QWhyzsgTw9ufCb.jpg) ;
+    background-image: url(Img/shutterstock_682265785_4.2e16d0ba.fill-1600x775.jpg) ;
     text-align: center;
 }
 
@@ -183,7 +182,6 @@ align-items: center;
 
 #card-koteret
 {
-    color:rgb(129, 244, 234);
     display: inline-flex;
     font-family: "URW Chancery L", cursive;
     font-weight: bold;
@@ -192,4 +190,17 @@ align-items: center;
     font-style: italic;
     color: rgb(184, 242, 246);
     -webkit-text-stroke: 1px rgb(70, 100, 233);
+}
+
+#par-text-im
+{
+    color:rgb(87, 85, 94);
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    font-family: "Papyrus", fantasy;
+    text-shadow: 2px 3px 10px rgba(162, 167, 197, 0.571);
+    padding-top:2px;
+    padding-bottom:2px;
 }
