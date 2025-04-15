@@ -92,6 +92,17 @@
     margin: 20px;
     padding: 30px;
     flex-wrap: wrap;
+    gap: 17px;
+}
+
+.container-1
+{
+    display : flex;
+    grid-template-columns: 70% 30%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .item-text-1
@@ -137,7 +148,7 @@ padding: 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 16px;
+    padding: 20px;
     gap: 10px;
   }
   
@@ -155,18 +166,30 @@ padding: 16px;
   .card-image {
     object-fit: cover;
     width: 100%;
-    max-height: 150px;
+    max-height: 140px;
   }
 
   #cards-titles
 {
     background-image: url(Img/360_F_22727906_qmu4gykES1uVCRGvp2QWhyzsgTw9ufCb.jpg) ;
-    color:rgb(27, 153, 195);
-    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 #footer
 {
 text-align: center;
 align-items: center;
+}
+
+#card-koteret
+{
+    color:rgb(129, 244, 234);
+    display: inline-flex;
+    font-family: "URW Chancery L", cursive;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+    font-style: italic;
+    color: rgb(184, 242, 246);
+    -webkit-text-stroke: 1px rgb(70, 100, 233);
 }
