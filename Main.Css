@@ -1,6 +1,6 @@
 #body-colors
 {
-    background-color: #dffcff;
+    background-color: #313640;
 
 }
 
@@ -8,10 +8,9 @@
 {
     background-image: url(Img/bobbles.jpg) ;
     size: auto;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     text-align: center;
-    font-family: sans-serif;
 }
 
 #anatomy 
@@ -21,7 +20,6 @@
     background-size: cover;
     background-position: center;
     text-align: center;
-    font-family: sans-serif;
 }
 
 #diet 
@@ -29,31 +27,59 @@
     background-image: url(Img/ocean.jpg) ;
     size: auto;
     background-size: cover;
-    background-position: center;
     text-align: center;
-    font-family: sans-serif;
+    background-position: center;
 }
 
 #title-1
 {
-    background-color: blueviolet;
-    color:black;
+    color:rgb(11, 6, 96);
     display: inline-flex;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    text-decoration: underline dotted rgb(40, 122, 174);
+}
+
+#body-1
+{
+    color:rgb(21, 62, 128);
+    display: inline-flex;
+    font-family: "Courier New", monospace;
+    font-size: 20;
 }
 
 #title-2
 {
-    background-color: rgb(181, 241, 16);
-    color:rgb(0, 26, 27);
-    font-family: 'Times New Roman', Times, serif;
+    color:rgb(129, 244, 234);
+    display: inline-flex;
+    font-family: "URW Chancery L", cursive;
+    font-weight: bold;
+    text-decoration: wavy underline rgb(219, 251, 248);
+}
+
+#body-2
+{
+    color:rgb(192, 250, 234);
+    display: inline-flex;
+    font-family: "URW Chancery L", cursive;
+    font-size: 20;
 }
 
 #title-3
 {
-    background-color: rgb(181, 248, 192);
-    color:rgb(5, 137, 189);
-    font-family: 'Times New Roman', Times, serif;
+    color:rgb(21, 62, 128);
+    display: inline-flex;
+    font-weight: bold;
+    text-decoration: underline rgb(63, 132, 197);
+    font-family: "Brush Script MT", cursive;
+}
+
+#body-3
+{
+    color:rgb(21, 62, 128);
+    display: inline-flex;
+    font-family: "Brush Script MT", cursive;
+    font-size: 20;
 }
 
 .container
@@ -70,10 +96,9 @@
 
 .item-text-1
 {
-    background-color: #8ee7e3;
-    color: rgb(217, 160, 250);
-    padding: 20px;
-    border-radius: 10px;
+    background-color: #7cefe5ce;
+    padding: 30px;
+    border-radius: 50px;
     flex: 2;
     margin: 20px;
     text-align: center;
@@ -81,22 +106,20 @@
 
 .item-text-2
 {
-    background-color: #12928c;
-    color: rgba(96, 9, 146, 0.486);
-    padding: 20px;
-    border-radius: 10px;
-    flex: 1;
+    background-color: #120823d4;
+    padding: 30px;
+    border-radius: 50px;
+    flex: 2;
     margin: 20px;
     text-align: center;
 }
 
 .item-text-3
 {
-    background-color: #2c2229;
-    color: rgb(63, 107, 110);
-    padding: 20px;
-    border-radius: 10px;
-    flex: 1;
+    background-color: #d1f4dece;
+    padding: 30px;
+    border-radius: 50px;
+    flex: 2;
     margin: 20px;
     text-align: center;
 }
@@ -104,7 +127,7 @@
 .item-image
 {
 object-fit: cover;
-max-width: 400px;
+max-width: 350px;
 max-height: auto;
 padding: 16px;
 }
@@ -113,34 +136,37 @@ padding: 16px;
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
-    padding: 20px;
+    padding: 16px;
+    gap: 10px;
   }
   
   .card {
     max-width: 320px;
     max-height: 200px;
-    border: 1px solid #c73333;
+    border: 1px solid #321f1f;
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(100, 197, 55, 0.1);
+    box-shadow: 0 0 10px rgba(108, 146, 91, 0.1);
   }
   
   .card-image {
+    object-fit: cover;
     width: 100%;
     max-height: 150px;
-    object-fit: cover;
   }
 
   #cards-titles
 {
     background-image: url(Img/360_F_22727906_qmu4gykES1uVCRGvp2QWhyzsgTw9ufCb.jpg) ;
-    color:rgb(80, 176, 208);
+    color:rgb(27, 153, 195);
     font-family: 'Times New Roman', Times, serif;
 }
 
-
-
+#footer
+{
+text-align: center;
+align-items: center;
+}
