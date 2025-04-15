@@ -1,6 +1,12 @@
+#body-colors
+{
+    background-color: #dffcff;
+
+}
+
 #habitat 
 {
-    background-image: url(Img/istockphoto-1300198454-612x612.png) ;
+    background-image: url(Img/bobbles.jpg) ;
     size: auto;
     background-size: cover;
     background-position: center;
@@ -10,7 +16,7 @@
 
 #anatomy 
 {
-    background-image: url(Img/ai-generated-tranquil-seascape-serene-ocean-at-dusk-photo.png) ;
+    background-image: url(Img/bobbles222.jpg) ;
     size: auto;
     background-size: cover;
     background-position: center;
@@ -20,7 +26,7 @@
 
 #diet 
 {
-    background-image: url(Img/360_F_4439660_Uwl22WmYlzyfoIj1WyGLdXKbWM1rO4Rj.png) ;
+    background-image: url(Img/ocean.jpg) ;
     size: auto;
     background-size: cover;
     background-position: center;
@@ -32,6 +38,7 @@
 {
     background-color: blueviolet;
     color:black;
+    display: inline-flex;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -49,17 +56,17 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.container-fluid
+.container
 {
-    display : grid;
-    grid-template-columns: 3fr 1fr;
+    display : flex;
+    grid-template-columns: 70% 30%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin: 20px;
-    padding: 50px;
+    padding: 30px;
+    flex-wrap: wrap;
 }
-
 
 .item-text-1
 {
@@ -67,7 +74,7 @@
     color: rgb(217, 160, 250);
     padding: 20px;
     border-radius: 10px;
-    flex: 1;
+    flex: 2;
     margin: 20px;
     text-align: center;
 }
@@ -97,7 +104,43 @@
 .item-image
 {
 object-fit: cover;
-max-width: 200px;
-max-height: 200px;
-padding: 20px;
+max-width: 400px;
+max-height: auto;
+padding: 16px;
 }
+
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card {
+    max-width: 320px;
+    max-height: 200px;
+    border: 1px solid #c73333;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(100, 197, 55, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+
+  #cards-titles
+{
+    background-image: url(Img/360_F_22727906_qmu4gykES1uVCRGvp2QWhyzsgTw9ufCb.jpg) ;
+    color:rgb(80, 176, 208);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
